@@ -1,0 +1,22 @@
+*{
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.last-link{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+main{
+    letter-spacing: 0.09em;
+}
+
+.main-btn{
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: #F3F3F3;
+    background-color: #191A23;
+    font-weight: 100;
+}
+
