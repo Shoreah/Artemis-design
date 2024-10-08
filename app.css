@@ -20,17 +20,26 @@ main{
     font-weight: 100;
 }
 
+.services{
+    font-weight: 400;
+}
+
+.service-text{
+    font-size: small;
+}
 .card{
     display: flex;
     flex-direction: row;
     width: 30em; 
-    border: 1px solid #ddd; 
+    height: 15em;
+    border: 1px solid #191a23; 
     border-radius: 30px;
     border-bottom: 3px solid black;
     border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;
     box-shadow: 0 4px 2px -2px gray;
     padding:20px;
+    cursor: pointer;
 }
 
 .card-image{
@@ -62,6 +71,52 @@ main{
     margin-bottom: 20px;
 }
 
+.card-two{
+    display: flex;
+    flex-direction: row;
+    width: auto; 
+    height: 347px;
+    border: 1px solid #ddd; 
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #F3F3F3;
+}
+
+.card-stuff{
+    width: 50%;
+}
+
+.card-stuff h2{
+    font-size: 24px; 
+    margin-bottom: 10px;
+}
+
+.card-stuff p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.card-img{
+    width: 50%;
+}
+
+.head-color{
+    background-color: #b9ff66;
+}
+
+.second-color{
+    background-color: #F3F3F3;
+}
+
+.arrow-one{
+    color: black;
+}
+
+.arrow-two{
+    color: white;
+}
+
 .first-card{
     background-color: #F3F3F3;
 }
@@ -74,5 +129,11 @@ main{
     background-color: #191a23;
 }
 
+.proposal-btn{
+    padding: 10px 20px;
+    background-color: #191a23;
+    color: #F3F3F3;
+    border-radius: 10px;
+}
 
 
