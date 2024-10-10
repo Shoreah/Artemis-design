@@ -3,299 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-    />
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="nav.css" />
     <link rel="stylesheet" href="app.css" />
-    <title>Artemis</title>
+    <title>Document</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg container">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Artemis</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ms-auto">
-            <a class="nav-link mx-3" aria-current="page" href="#About"
-              >About us</a
-            >
-            <a class="nav-link mx-3" href="#service">Services</a>
-            <a class="nav-link mx-3" href="#">Use cases</a>
-            <a class="nav-link mx-3" href="#">Pricing</a>
-            <a class="nav-link mx-3" href="#">Blog</a>
-            <a class="nav-link mx-3 last-link" href="#">Request a quote</a>
-          </div>
-        </div>
+    <nav class="navbar container">
+      <div class="logo"><a href="#">Positivus</a></div>
+      <ul id="menuList">
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Use Cases</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a class="Request" href="#">Request a quote</a></li>
+      </ul>
+
+      <div class="menu-icon">
+        <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
       </div>
     </nav>
 
-    <main class="mt-5" id="About">
-      <div class="container text-start">
-        <div class="row">
-          <div class="col">
-            <h1 class="pb-4">
-              Navigating the <br />digital landscape <br />for success
-            </h1>
-            <p class="pb-4">
-              Our digital marketing agency helps businesses <br />grow and
-              succeed online through a range of <br />services including SEO,
-              PPC, social media marketing,<br />
-              and content creation.
-            </p>
-            <button class="main-btn">Book a consultation</button>
-          </div>
-          <div class="col">
-            <img class="img-fluid" src="imgs/img.png" alt="" />
-          </div>
-        </div>
+    <!-- <div class="card">
+      <div class="card-content">
+        <h2>Search engine optimization</h2>
+        <p>This is a sample card with an image beside the text.</p>
       </div>
-    </main>
-
-    <section class="container mt-5 mb-5">
-      <img class="me-5" src="imgs/amazon.svg" alt="" />
-      <img class="me-5" src="imgs/dribble.svg" alt="" />
-      <img class="me-5" src="imgs/hubspot.svg" alt="" />
-      <img class="me-5" src="imgs/notion.svg" alt="" />
-      <img class="me-5" src="imgs/netflix.svg" alt="" />
-      <img class="mx-3" src="imgs/zoom.svg" alt="" />
-    </section>
-
-    <section id="service">
-      <div class="container text-start pt-5 pb-5">
-        <div class="row">
-          <div class="col-2">
-            <h3><span class="head-color services">Services</span></h3>
-          </div>
-          <div class="col-5">
-            <p class="service-text">
-              At our digital marketing agency, we offer a range of services to
-              help businesses grow and succeed online. These services include:
-            </p>
-          </div>
-          <div class="col-5"></div>
-        </div>
+      <div class="card-image">
+        <img src="serviceimg/image1.svg" alt="Image" />
       </div>
+    </div> -->
+    <script>
+      let menuList = document.querySelector("#menuList");
+      menuList.style.maxHeight = "0px";
 
-      <div class="container pb-4">
-        <div class="container text-start">
-          <div class="row">
-            <div class="col">
-              <div class="card first-card">
-                <div class="card-content">
-                  <h2>
-                    <span class="head-color">Search engine optimization</span>
-                  </h2>
-                  <p>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      fill="currentColor"
-                      class="bi bi-arrow-up-right-circle-fill arrow-one"
-                      viewBox="0 0 16 16"
-                    >
-                      <path
-                        d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z"
-                      />
-                    </svg>
-                    Learn more
-                  </p>
-                </div>
-                <div class="card-image">
-                  <img src="serviceimg/image1.svg" alt="Image" />
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="card second-card">
-                <div class="card-content text-start">
-                  <h2>
-                    <span class="second-color">Pay-per-click advertising</span>
-                  </h2>
-                  <p>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      fill="currentColor"
-                      class="bi bi-arrow-up-right-circle-fill arrow-one"
-                      viewBox="0 0 16 16"
-                    >
-                      <path
-                        d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z"
-                      />
-                    </svg>
-                    Learn more
-                  </p>
-                </div>
-                <div class="card-image">
-                  <img src="serviceimg/image2.svg" alt="Image" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="container pb-4">
-        <div class="container text-start">
-          <div class="row">
-            <div class="col">
-              <div class="card third-card">
-                <div class="card-content">
-                  <h2>
-                    <span class="second-color">Social media marketing</span>
-                  </h2>
-                  <p>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      fill="currentColor"
-                      class="bi bi-arrow-up-right-circle-fill arrow-two"
-                      viewBox="0 0 16 16"
-                    >
-                      <path
-                        d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z"
-                      />
-                    </svg>
-                    Learn more
-                  </p>
-                </div>
-                <div class="card-image">
-                  <img src="serviceimg/image3.svg" alt="Image" />
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="card first-card">
-                <div class="card-content text-start">
-                  <h2>
-                    <span class="head-color">Email <br />marketing</span>
-                  </h2>
-                  <p>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      fill="currentColor"
-                      class="bi bi-arrow-up-right-circle-fill arrow-one"
-                      viewBox="0 0 16 16"
-                    >
-                      <path
-                        d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z"
-                      />
-                    </svg>
-                    Learn more
-                  </p>
-                </div>
-                <div class="card-image">
-                  <img src="serviceimg/image4.svg" alt="Image" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="container pb-4">
-        <div class="container text-start">
-          <div class="row">
-            <div class="col">
-              <div class="card second-card">
-                <div class="card-content">
-                  <h2>
-                    <span class="second-color">Content <br />creation</span>
-                  </h2>
-                  <p>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      fill="currentColor"
-                      class="bi bi-arrow-up-right-circle-fill arrow-one"
-                      viewBox="0 0 16 16"
-                    >
-                      <path
-                        d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z"
-                      />
-                    </svg>
-                    Learn more
-                  </p>
-                </div>
-                <div class="card-image">
-                  <img src="serviceimg/image5.svg" alt="Image" />
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card third-card">
-                <div class="card-content text-start">
-                  <h2>
-                    <span class="head-color">Analytics and tracking</span>
-                  </h2>
-                  <p>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      fill="currentColor"
-                      class="bi bi-arrow-up-right-circle-fill arrow-two"
-                      viewBox="0 0 16 16"
-                    >
-                      <path
-                        d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z"
-                      />
-                    </svg>
-                    Learn more
-                  </p>
-                </div>
-                <div class="card-image">
-                  <img src="serviceimg/image6.svg" alt="Image" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container pb-4">
-        <div class="container text-start">
-          <div class="card-two">
-            <div class="card-stuff">
-              <h2 class="pt-4 pb-4">Let’s make things happen</h2>
-              <p>
-                Contact us today to learn more about how our digital marketing
-                services can help your business grow and succeed online.
-              </p>
-              <button class="proposal-btn">Get your free proposal</button>
-            </div>
-
-            <div class="card-img">
-              <img src="serviceimg/image7.svg" alt="Image" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+      function toggleMenu() {
+        if (menuList.style.maxHeight == "0px") {
+          menuList.style.maxHeight = "300px";
+        } else {
+          menuList.style.maxHeight = "0px";
+        }
+      }
+    </script>
+    <script
+      src="https://kit.fontawesome.com/755e9399bf.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

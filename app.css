@@ -1,45 +1,12 @@
-*{
-    font-family: "Space Grotesk", sans-serif;
-    font-optical-sizing: auto;
-}
-
-.last-link{
-    border: 1px solid black;
-    border-radius: 10px;
-}
-
-main{
-    letter-spacing: 0.09em;
-}
-
-.main-btn{
-    border-radius: 10px;
-    padding: 10px 15px;
-    color: #F3F3F3;
-    background-color: #191A23;
-    font-weight: 100;
-}
-
-.services{
-    font-weight: 400;
-}
-
-.service-text{
-    font-size: small;
-}
 .card{
     display: flex;
     flex-direction: row;
-    width: 30em; 
-    height: 15em;
-    border: 1px solid #191a23; 
+    width: 500px; 
+    height: 200px;
+    border: 1px solid #ddd; 
     border-radius: 30px;
-    border-bottom: 3px solid black;
-    border-bottom-left-radius: 35px;
-    border-bottom-right-radius: 35px;
-    box-shadow: 0 4px 2px -2px gray;
-    padding:20px;
-    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
 }
 
 .card-image{
@@ -47,14 +14,14 @@ main{
 }
 
 •card-image img{
-    width: 100%; 
-    height: 100%;
+    width: 50%; 
+    height: 50%;
     object-fit: cover;
     border-radius: 10px 0 0 10px;
 }
 
 .card-content{
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -71,69 +38,15 @@ main{
     margin-bottom: 20px;
 }
 
-.card-two{
-    display: flex;
-    flex-direction: row;
-    width: auto; 
-    height: 347px;
-    border: 1px solid #ddd; 
-    border-radius: 30px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    background-color: #F3F3F3;
+.card-content button {
+    background-color: #4CAF50;
+    color: #fff; 
+    border: none;
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer;
 }
 
-.card-stuff{
-    width: 50%;
+.card-content button:hover{
+    background-color: #3e8e41;
 }
-
-.card-stuff h2{
-    font-size: 24px; 
-    margin-bottom: 10px;
-}
-
-.card-stuff p{
-    font-size: 16px;
-    margin-bottom: 20px;
-}
-
-.card-img{
-    width: 50%;
-}
-
-.head-color{
-    background-color: #b9ff66;
-}
-
-.second-color{
-    background-color: #F3F3F3;
-}
-
-.arrow-one{
-    color: black;
-}
-
-.arrow-two{
-    color: white;
-}
-
-.first-card{
-    background-color: #F3F3F3;
-}
-
-.second-card{
-    background-color: #b9ff66;
-}
-
-.third-card{
-    background-color: #191a23;
-}
-
-.proposal-btn{
-    padding: 10px 20px;
-    background-color: #191a23;
-    color: #F3F3F3;
-    border-radius: 10px;
-}
-
-
