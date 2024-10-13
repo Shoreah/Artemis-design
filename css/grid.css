@@ -1,0 +1,14 @@
+main{
+    display: grid;
+    grid: auto-flow min-content / repeat(12,1fr);
+    gap: 1em;
+}
+
+.start{
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+
+.main-img{
+    grid-column: 7 / 13;
+}

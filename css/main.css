@@ -1,0 +1,21 @@
+main{
+    padding-top: 4em;
+    letter-spacing: 0.09em;
+}
+
+.main-btn{
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: #F3F3F3;
+    background-color: #191A23;
+    font-weight: 100;
+}
+
+.main-h1{
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.main-p{
+    padding-bottom: 30px;
+}
