@@ -12,3 +12,55 @@ main{
 .main-img{
     grid-column: 7 / 13;
 }
+
+.service-section{
+    display: grid;
+    grid: auto-flow min-content / repeat(12,1fr);
+    gap: 1em;
+}
+
+.service-text{
+    grid-column: 2 / 7;
+}
+
+.six-cards .first-sect{
+    display: grid;
+    grid: auto-flow min-content / repeat(12,1fr);
+    gap: 1em;
+}
+
+.card-one{
+    grid-column: 1 / 6;
+}
+
+.card-two{
+    grid-column: 7 / 13;
+}
+
+.six-cards .second-sect{
+    display: grid;
+    grid: auto-flow min-content / repeat(12,1fr);
+    gap: 1em;
+}
+
+.card-three{
+    grid-column: 1 / 6;
+}
+
+.card-four{
+    grid-column: 7 / 13;
+}
+
+.six-cards .third-sect{
+    display: grid;
+    grid: auto-flow min-content / repeat(12,1fr);
+    gap: 1em;
+}
+
+.card-five{
+    grid-column: 1 / 6;
+}
+
+.card-six{
+    grid-column: 7 / 13;
+}
