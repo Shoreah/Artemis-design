@@ -78,3 +78,17 @@ main{
 .case-text{
     grid-column: 2/4;
 }
+
+.pricing-section{
+    display: grid;
+    grid: auto-flow min-content / repeat(4,1fr);
+    gap: 1em;
+}
+
+.process{
+    grid-column: 1 / 2;
+}
+
+.process-text{
+    grid-column: 2/4;
+}
