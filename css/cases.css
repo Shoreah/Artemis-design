@@ -1,0 +1,41 @@
+.case-text{
+    font-size: small;
+}
+
+.case-section{
+    padding-top: 7em;
+    padding-bottom: 3em;
+}
+
+.case-card{
+    display: flex;
+    flex-direction: row;
+    width: 67em; 
+    padding: 50px 20px;
+    border: 1px solid #191a23; 
+    border-radius: 30px;
+    background-color:  #191A23;
+}
+
+.case-card-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #F3F3F3;
+    padding-right: 10px;
+    padding-left: 40px;
+}
+
+.case-card-content:last-child{
+    border-right: none;
+}
+
+.case-card-content p{
+    font-size: small;
+    color: #F3F3F3;
+    padding: 10px;
+}
+
+#learn{
+    color: #b9ff66;
+}

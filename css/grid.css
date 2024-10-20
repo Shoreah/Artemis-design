@@ -64,3 +64,17 @@ main{
 .card-six{
     grid-column: 7 / 13;
 }
+
+.case-section{
+    display: grid;
+    grid: auto-flow min-content / repeat(6,1fr);
+    gap: 1em;
+}
+
+.case{
+    grid-column: 1 / 3;
+}
+
+.case-text{
+    grid-column: 2/4;
+}

@@ -8,12 +8,16 @@
 .card{
     display: flex;
     flex-direction: row;
-    width: 500px; 
-    height: 200px;
-    border: 1px solid #ddd; 
+    width: 30em; 
+    height: 15em;
+    border: 1px solid #191a23; 
     border-radius: 30px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    border-bottom: 3px solid black;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    box-shadow: 0 4px 2px -2px gray;
+    padding:20px;
+    cursor: pointer;
 }
 
 .card-image{
@@ -21,14 +25,14 @@
 }
 
 •card-image img{
-    width: 50%; 
-    height: 50%;
+    width: 100%; 
+    height: 100%;
     object-fit: cover;
     border-radius: 10px 0 0 10px;
 }
 
 .card-content{
-    width: 60%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -45,15 +49,63 @@
     margin-bottom: 20px;
 }
 
-.card-content button {
-    background-color: #4CAF50;
-    color: #fff; 
-    border: none;
-    padding: 10px 20px; 
-    font-size: 16px; 
+.long-card{
+    display: flex;
+    flex-direction: row;
+    width: 67em; 
+    height: 347px;
+    border: 1px solid #ddd; 
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #F3F3F3;
+}
+
+.longcard-content{
+    width: 50%;
+}
+
+.longcard-content h2{
+    font-size: 24px; 
+    margin-bottom: 10px;
+}
+
+.longcard-content p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.proposal-btn{
+    border-radius: 10px;
+    padding: 15px 20px;
+    color: #F3F3F3;
+    background-color: #191A23;
+    font-weight: 100;
     cursor: pointer;
 }
 
-.card-content button:hover{
-    background-color: #3e8e41;
+.longcard-img{
+    width: 50%
+}
+
+.head-color{
+    background-color: #b9ff66;
+    font-weight: 400;
+}
+
+.second-color{
+    background-color: #F3F3F3;
+    font-weight: 400
+}
+
+.first-card{
+    background-color: #F3F3F3;
+}
+
+.second-card{
+    background-color: #b9ff66;
+}
+
+.third-card{
+    background-color: #191a23;
 }

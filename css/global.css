@@ -1,3 +1,20 @@
+*{
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.container{
+    width: 92%;
+    margin: auto;
+    height: 100%;
+}
+
+@media (min-width:1200px) {
+    .container{
+        width: 1140px;
+    }
+}
+
 body{
     margin: 0;
 }
@@ -10,20 +27,8 @@ body{
     padding-bottom: 2em;
 }
 
-.container{
-    width: 92%;
-    margin: auto;
-    height: 100%;
+.light-text{
+    font-weight: 300;
 }
 
-*{
-    font-family: "Space Grotesk", sans-serif;
-    font-optical-sizing: auto;
-}
-
-@media (min-width:1200px) {
-    .container{
-        width: 1140px;
-    }
-}
 
