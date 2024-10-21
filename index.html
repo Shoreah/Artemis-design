@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/service.css" />
     <link rel="stylesheet" href="css/cases.css" />
     <link rel="stylesheet" href="css/price.css" />
+    <link rel="stylesheet" href="css/blog.css" />
     <title>Document</title>
   </head>
   <body>
@@ -25,8 +26,8 @@
         <li><a href="#About">About us</a></li>
         <li><a href="#service">Services</a></li>
         <li><a href="#case">Use Cases</a></li>
-        <li><a href="#">Pricing</a></li>
-        <li><a href="#">Blog</a></li>
+        <li><a href="#price">Pricing</a></li>
+        <li><a href="#blog">Blog</a></li>
         <li><a class="Request" href="#">Request a quote</a></li>
       </ul>
 
@@ -57,12 +58,12 @@
     </main>
 
     <section class="container pb pt">
-      <img class="me-5" src="imgs/amazon.svg" alt="" />
-      <img class="me-5" src="imgs/dribble.svg" alt="" />
-      <img class="me-5" src="imgs/hubspot.svg" alt="" />
-      <img class="me-5" src="imgs/notion.svg" alt="" />
-      <img class="me-5" src="imgs/netflix.svg" alt="" />
-      <img class="me-3" src="imgs/zoom.svg" alt="" />
+      <img class="me-5" src="imgs/logo-img/amazon.svg" alt="" />
+      <img class="me-5" src="imgs/logo-img/dribble.svg" alt="" />
+      <img class="me-5" src="imgs/logo-img/hubspot.svg" alt="" />
+      <img class="me-5" src="imgs/logo-img/notion.svg" alt="" />
+      <img class="me-5" src="imgs/logo-img/netflix.svg" alt="" />
+      <img class="me-3" src="imgs/logo-img/zoom.svg" alt="" />
     </section>
 
     <section id="service" class="pt">
@@ -227,7 +228,7 @@
       </div>
     </section>
 
-    <section>
+    <section id="price">
       <div class="pricing-section container pb">
         <h2><span class="head-color process">Our Working Process</span></h2>
         <p class="process-text">
@@ -235,86 +236,261 @@
         </p>
       </div>
 
-      <ul class="accordion container">
-        <li>
-          <input type="radio" name="accordion" id="first" checked />
-          <label for="first"> <h2>01</h2> <p>Consultation</p> </label>
-          <div class="content">
+      <div class="accordion container">
+        <div class="accord">
+          <input
+            type="radio"
+            name="accordion"
+            id="first"
+            class="accordion-input"
+            checked
+          />
+          <label for="first" class="accordion-label">01 Consultation</label>
+          <div class="accordion-content">
+            <p></p>
+            <hr />
+            During the initial consultation, we will discuss your business goals
+            and objectives, target audience, and current marketing efforts. This
+            will allow us to understand your needs and tailor our services to
+            best fit your requirements.
+          </div>
+        </div>
+        <div class="accord">
+          <input
+            type="radio"
+            name="accordion"
+            id="second"
+            class="accordion-input"
+          />
+          <label for="second" class="accordion-label"
+            >Research and Strategy Development</label
+          >
+          <div class="accordion-content">
+            <p></p>
+            <hr />
+            During the initial consultation, we will discuss your business goals
+            and objectives, target audience, and current marketing efforts. This
+            will allow us to understand your needs and tailor our services to
+            best fit your requirements.
+          </div>
+        </div>
+        <div class="accord">
+          <input
+            type="radio"
+            name="accordion"
+            id="third"
+            class="accordion-input"
+          />
+          <label for="third" class="accordion-label">Implementation</label>
+          <div class="accordion-content">
+            <p></p>
+            <hr />
+            During the initial consultation, we will discuss your business goals
+            and objectives, target audience, and current marketing efforts. This
+            will allow us to understand your needs and tailor our services to
+            best fit your requirements.
+          </div>
+        </div>
+        <div class="accord">
+          <input
+            type="radio"
+            name="accordion"
+            id="fourth"
+            class="accordion-input"
+          />
+          <label for="fourth" class="accordion-label"
+            >Monitoring and Optimization</label
+          >
+          <div class="accordion-content">
+            <p></p>
+            <hr />
+            During the initial consultation, we will discuss your business goals
+            and objectives, target audience, and current marketing efforts. This
+            will allow us to understand your needs and tailor our services to
+            best fit your requirements.
+          </div>
+        </div>
+        <div class="accord">
+          <input
+            type="radio"
+            name="accordion"
+            id="fifth"
+            class="accordion-input"
+          />
+          <label for="fifth" class="accordion-label"
+            >Reporting and Communication</label
+          >
+          <div class="accordion-content">
+            <p></p>
+            <hr />
+            During the initial consultation, we will discuss your business goals
+            and objectives, target audience, and current marketing efforts. This
+            will allow us to understand your needs and tailor our services to
+            best fit your requirements.
+          </div>
+        </div>
+        <div class="accord">
+          <input
+            type="radio"
+            name="accordion"
+            id="sixth"
+            class="accordion-input"
+          />
+          <label for="sixth" class="accordion-label"
+            >Continual improvement</label
+          >
+          <div class="accordion-content">
+            <p></p>
+            <hr />
+            During the initial consultation, we will discuss your business goals
+            and objectives, target audience, and current marketing efforts. This
+            will allow us to understand your needs and tailor our services to
+            best fit your requirements.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="blog">
+      <div class="blog-section container pb">
+        <h2><span class="head-color Team">Team</span></h2>
+        <p class="blog-text">
+          Meet the skilled and experienced team behind our successful digital
+          marketing strategies
+        </p>
+      </div>
+
+      <div class="container bloggers">
+        <div class="blog-card">
+          <div class="heads">
+            <div class="blog-img">
+              <img src="imgs/blog-img/first.svg" alt="" />
+            </div>
+            <div class="blog-header">
+              <p>John Smith</p>
+              <p>Ceo and Founder</p>
+            </div>
+            <div class="blog-icon">
+              <img src="imgs/blog-img/IN-icon.svg" alt="" />
+            </div>
+          </div>
+          <div class="blog-content">
             <p>
-              <hr>
-              During the initial consultation, we will discuss your business
-              goals and objectives, target audience, and current marketing
-              efforts. This will allow us to understand your needs and tailor
-              our services to best fit your requirements.
+              10+ years of experience in digital marketing. Expertise in SEO,
+              PPC, and content strategy
             </p>
           </div>
-        </li>
-        <li>
-          <input type="radio" name="accordion" id="second" />
-          <label for="second">Research and Strategy Development</label>
-          <div class="content">
+        </div>
+
+        <div class="blog-card">
+          <div class="heads">
+            <div class="blog-img">
+              <img src="imgs/blog-img/second.svg" alt="" />
+            </div>
+            <div class="blog-header">
+              <p>Jane Doe</p>
+              <p>Director of Operations</p>
+            </div>
+            <div class="blog-icon">
+              <img src="imgs/blog-img/IN-icon.svg" alt="" />
+            </div>
+          </div>
+          <div class="blog-content">
             <p>
-              <hr>
-              During the initial consultation, we will discuss your business
-              goals and objectives, target audience, and current marketing
-              efforts. This will allow us to understand your needs and tailor
-              our services to best fit your requirements.
+              7+ years of experience in project management and team leadership.
+              Strong organizational and communication skills
             </p>
           </div>
-        </li>
-        <li>
-          <input type="radio" name="accordion" id="third" />
-          <label for="third">Implementation</label>
-          <div class="content">
+        </div>
+
+        <div class="blog-card">
+          <div class="heads">
+            <div class="blog-img">
+              <img src="imgs/blog-img/third.svg" alt="" />
+            </div>
+            <div class="blog-header">
+              <p>Michael Brown</p>
+              <p>Senior SEO Specialist</p>
+            </div>
+            <div class="blog-icon">
+              <img src="imgs/blog-img/IN-icon.svg" alt="" />
+            </div>
+          </div>
+          <div class="blog-content">
             <p>
-              <hr>
-              During the initial consultation, we will discuss your business
-              goals and objectives, target audience, and current marketing
-              efforts. This will allow us to understand your needs and tailor
-              our services to best fit your requirements.
+              5+ years of experience in SEO and content creation. Proficient in
+              keyword research and on-page optimization
             </p>
           </div>
-        </li>
-        <li>
-          <input type="radio" name="accordion" id="fourth" />
-          <label for="fourth">Monitoring and Optimization</label>
-          <div class="content">
+        </div>
+
+        <div class="blog-card">
+          <div class="heads">
+            <div class="blog-img">
+              <img src="imgs/blog-img/fourth.svg" alt="" />
+            </div>
+            <div class="blog-header">
+              <p>Emily Johnson</p>
+              <p>PPC Manager</p>
+            </div>
+            <div class="blog-icon">
+              <img src="imgs/blog-img/IN-icon.svg" alt="" />
+            </div>
+          </div>
+          <div class="blog-content">
             <p>
-              <hr>
-              During the initial consultation, we will discuss your business
-              goals and objectives, target audience, and current marketing
-              efforts. This will allow us to understand your needs and tailor
-              our services to best fit your requirements.
+              3+ years of experience in paid search advertising. Skilled in
+              campaign management and performance analysis
             </p>
           </div>
-        </li>
-        <li>
-          <input type="radio" name="accordion" id="fifth" />
-          <label for="fifth">Reporting and Communication</label>
-          <div class="content">
+        </div>
+
+        <div class="blog-card">
+          <div class="heads">
+            <div class="blog-img">
+              <img src="imgs/blog-img/fifth.svg" alt="" />
+            </div>
+            <div class="blog-header">
+              <p>Brian Williams</p>
+              <p>Social Media <br />Specialist</p>
+            </div>
+            <div class="blog-icon">
+              <img src="imgs/blog-img/IN-icon.svg" alt="" />
+            </div>
+          </div>
+          <div class="blog-content">
             <p>
-              <hr>
-              During the initial consultation, we will discuss your business
-              goals and objectives, target audience, and current marketing
-              efforts. This will allow us to understand your needs and tailor
-              our services to best fit your requirements.
+              4+ years of experience in social media marketing. Proficient in
+              creating and scheduling content, analyzing metrics, and building
+              engagement
             </p>
           </div>
-        </li>
-        <li>
-          <input type="radio" name="accordion" id="sixth" />
-          <label for="sixth">Continual improvement</label>
-          <div class="content">
+        </div>
+
+        <div class="blog-card">
+          <div class="heads">
+            <div class="blog-img">
+              <img src="imgs/blog-img/sixth.svg" alt="" />
+            </div>
+            <div class="blog-header">
+              <p>John Smith</p>
+              <p>Ceo and Founder</p>
+            </div>
+            <div class="blog-icon">
+              <img src="imgs/blog-img/IN-icon.svg" alt="" />
+            </div>
+          </div>
+          <div class="blog-content">
             <p>
-              <hr>
-              During the initial consultation, we will discuss your business
-              goals and objectives, target audience, and current marketing
-              efforts. This will allow us to understand your needs and tailor
-              our services to best fit your requirements.
+              2+ years of experience in writing and editing Skilled in creating
+              compelling, SEO-optimized content for various industries
             </p>
           </div>
-        </li>
-      </ul>
+        </div>
+      </div>
+      <div class="container pt button-part">
+        <button class="blog-btn">See all team</button>
+      </div>
     </section>
 
     <script>
