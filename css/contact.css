@@ -1,0 +1,48 @@
+.contact-text{
+    font-size: small;
+}
+
+.contact-section{
+    padding-top: 4em;
+}
+
+.contact-form{
+    background-color: #F3F3F3;
+    border-radius: 20px;
+    padding: 3em 6em 3em;
+    height: 650px;
+}
+
+.say-hi{
+    padding-right: 1em;
+}
+
+.contact-stuff{
+    width: 32em;
+    height: 2em;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 20px;
+}
+
+.message-design{
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 20px;
+    width: 27em;
+    height: 10em;
+}
+
+.label-space{
+    padding-bottom: 1em;
+}
+
+.contact-btn{
+    border-radius: 10px;
+    padding: 1em 4em;
+    width: 32em;
+    color: #F3F3F3;
+    background-color: #191A23;
+    font-weight: 100;
+    cursor: pointer;
+}

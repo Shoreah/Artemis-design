@@ -41,7 +41,7 @@ label::after{
     transition: transform 0.4s;
 }
 
-input[type="radio"]{
+.accordion-input{
     display: none;
 }
 

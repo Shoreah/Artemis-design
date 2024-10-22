@@ -102,3 +102,37 @@ main{
 .blog-text{
     grid-column: 2 / 6;
 }
+
+.bloggers{
+    display: grid;
+    grid: auto-flow min-content / repeat(9,1fr);
+    gap: 1em;
+}
+
+.bloggers .blog-card{
+    grid-column: span 3;
+}
+
+.test-section{
+    display: grid;
+    grid: auto-flow min-content / repeat(12,1fr);
+    gap: 1em;
+}
+
+.test-text{
+    grid-column: 2 / 6;
+}
+
+.contact-section{
+    display: grid;
+    grid: auto-flow min-content / repeat(7,1fr);
+    gap: 1em;
+}
+
+.contact{
+    grid-column: 1 / 2;
+}
+
+.contact-text{
+    grid-column: 2 / 4;
+}
