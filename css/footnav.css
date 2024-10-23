@@ -1,10 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-nav{
+.foot-nav{
     padding: 10px 5px;
     display: flex;
     align-items: center;
@@ -13,41 +7,21 @@ nav{
     height: 70px;
 }
 
-nav ul{
+.foot-nav ul{
     display: flex;
     gap: 30px;
 }
 
-nav ul li{
+.foot-nav ul li{
     list-style-type: none;
 }
 
-.anchor{
-    text-decoration: none;
-    color: black;
-}
-
-.nav-logo{
+.foot-nav-logo{
     font-size: 20px;
     font-weight: 500;
 }
 
-.Request{
-    border: 1px solid black;
-    padding: 10px 15px;
-    border-radius: 10px;
-}
-
-.menu-icon{
-    display: none;
-}
-
-.menu-icon i{
-    color: black;
-    font-size: 30px;
-}
-
-@media (max-width:730px) {
+/* @media (max-width:730px) {
     nav ul{
         position: absolute;
         top: 70px;
@@ -61,10 +35,4 @@ nav ul li{
     nav ul li{
         padding: 20px;
     }
-    .menu-icon{
-        display: block;
-    }
-    #menuList{
-        transition: all 0.5s;
-    }
-}
+} */

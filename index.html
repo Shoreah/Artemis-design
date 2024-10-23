@@ -20,18 +20,19 @@
     <link rel="stylesheet" href="css/test.css" />
     <link rel="stylesheet" href="css/contact.css" />
     <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/footnav.css" />
     <title>Document</title>
   </head>
   <body>
     <nav class="navbar container">
-      <div class="nav-logo"><a href="#">Positivus</a></div>
+      <div class="nav-logo"><a href="#" class="anchor">Positivus</a></div>
       <ul id="menuList">
-        <li><a href="#About">About us</a></li>
-        <li><a href="#service">Services</a></li>
-        <li><a href="#case">Use Cases</a></li>
-        <li><a href="#price">Pricing</a></li>
-        <li><a href="#blog">Blog</a></li>
-        <li><a class="Request" href="#">Request a quote</a></li>
+        <li><a href="#About" class="anchor">About us</a></li>
+        <li><a href="#service" class="anchor">Services</a></li>
+        <li><a href="#case" class="anchor">Use Cases</a></li>
+        <li><a href="#price" class="anchor">Pricing</a></li>
+        <li><a href="#blog" class="anchor">Blog</a></li>
+        <li><a class="Request anchor" href="#">Request a quote</a></li>
       </ul>
 
       <div class="menu-icon">
@@ -506,7 +507,7 @@
       </div>
     </section>
 
-    <section>
+    <section class="pb">
       <div class="contact-section container pb">
         <h2><span class="head-color contact">Contact Us</span></h2>
         <p class="contact-text">
@@ -574,6 +575,56 @@
         </form>
       </div>
     </section>
+
+    <footer class="container">
+      <nav class="foot-nav">
+        <div class="nav-logo"><a href="#">Positivus</a></div>
+        <ul id="menuList">
+          <li><a href="#About">About us</a></li>
+          <li><a href="#service">Services</a></li>
+          <li><a href="#case">Use Cases</a></li>
+          <li><a href="#price">Pricing</a></li>
+          <li><a href="#blog">Blog</a></li>
+        </ul>
+        <div></div>
+      </nav>
+
+      <div class="footer-section">
+        <div class="footer-intro">
+          <div class="head-intro">
+            <p><span class="inside-head">Contact us:</span></p>
+          </div>
+          <div class="footer-inside">
+            <p>Email: info@positivus.com</p>
+          </div>
+          <div class="footer-inside">
+            <p>Phone: 555-567-8901</p>
+          </div>
+          <div class="footer-inside">
+            <p>
+              Address: 1234 Main St <br />Moonstone City, Stardust State 12345
+            </p>
+          </div>
+        </div>
+
+        <div class="footer-side">
+          <form action="/footer" class="button-section">
+            <input
+              type="text"
+              name="email"
+              placeholder="Email"
+              class="footer-input"
+            />
+            <button class="footer-btn">Subscribe to news</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="copyright-sect">
+        <p class="first-copy">© 2023 Positivus. All Rights Reserved.</p>
+        <p><span class="second-copy">Privacy Policy</span></p>
+      </div>
+    </footer>
 
     <script>
       let menuList = document.querySelector("#menuList");
