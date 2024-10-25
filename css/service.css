@@ -1,8 +1,10 @@
-.services{
-    font-weight: 700;
-}
 .service-text{
     font-size: small;
+    font-weight: 100;
+}
+
+.service-section{
+    padding-bottom: 3em;
 }
 
 .card{
@@ -16,7 +18,7 @@
     border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;
     box-shadow: 0 4px 2px -2px gray;
-    padding:20px;
+    padding:30px 30px;
     cursor: pointer;
 }
 
@@ -88,12 +90,22 @@
     width: 50%
 }
 
+.longcard-stuff{
+    padding-top: 5em;
+}
+
 .head-color{
+    border: 1px solid #b9ff66;
+    border-radius: 10px;
+    padding: 3px;
     background-color: #b9ff66;
     font-weight: 400;
 }
 
 .second-color{
+    border: 1px solid #F3F3F3;
+    border-radius: 10px;
+    padding: 3px;
     background-color: #F3F3F3;
     font-weight: 400
 }
